@@ -20,7 +20,7 @@ const page = () => {
   const router = useRouter();
 
   const onSubmit = async (data) => {
-    data.email = data.email.toLowerCase();
+    // data.email = data.email.toLowerCase();
     try {
       const response = await axios.post(
         `${process.env.NEXT_PUBLIC_NGROK_LINK}/login-user`,

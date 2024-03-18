@@ -2,7 +2,7 @@
 
 const nextConfig = {
   images: {
-    domains: ['479b-2405-201-2006-7d89-d0dc-978c-2fc-e28b.ngrok-free.app'],
+    domains: ['17da-2405-201-2006-7d89-99e0-d61c-13b8-3efd.ngrok-free.app'],
   },
 };
 

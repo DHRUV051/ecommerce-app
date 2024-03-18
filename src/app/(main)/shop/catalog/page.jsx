@@ -109,8 +109,8 @@ const page = () => {
               <div className="w-full grid grid-cols-2 gap-[24px]">
                 {product.map((product) => {
                   return (
-                    <div className="flex flex-col justify-between items-center w-full">
-                      <Link href={`/shop/catalog/${product._id}_${product.name}`}>
+                    <div className="flex flex-col justify-b${product._id}_${product.name}etween items-center w-full">
+                      <Link href={`/shop/catalog/`}>
                         <div className="w-full relative">
                           <Image
                             src={`${process.env.NEXT_PUBLIC_NGROK_LINK}${product.image}`}
